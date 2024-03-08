@@ -1,0 +1,68 @@
+body{
+    background-color: #DFE2FF;
+}
+
+.container{
+
+    width: 497px;
+    height: 402px;
+    background-color: white;
+    border-radius: 32px;
+    border: solid 1px;
+    box-sizing: border-box;
+    padding: 64px;
+}
+
+.person-info{
+    display: flex;
+    align-items: center;
+}
+
+.person-avatar{
+    margin-right: 16px;
+}
+
+.name{
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-size: 24px;
+    color: #291F68;
+    margin: 0 0 16px 0;
+}
+
+.location{
+
+    font-family: Popins, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #291F68;
+    margin: 0 0 16px 0;
+
+}
+
+.follow{
+    background-color: #291F68;
+    width: 100%;
+    height: 59px;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    font-family: Popins, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 16px;
+    margin-top: 40px;
+}
+
+.message{
+    width: 100%;
+    height: 59px;
+    background-color: white;
+    color: #291F68;
+    border-radius: 8px;
+    font-family: Popins, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    border: solid 1px #291F68;
+}
+
